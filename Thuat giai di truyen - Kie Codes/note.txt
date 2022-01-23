@@ -1,0 +1,47 @@
+from typing import List
+random choices
+
+[Random choices]
+Syntax: random.choices(sequence, weights=None, cum_weights=None, k=1)
+sequence: list các phần tử gốc
+k số lượng phần tử 
+weights: khả năng của các phần tử
+vd:
+import random
+mylist = ["apple", "banana", "cherry"]
+print(random.choices(mylist, weights = [10, 1, 1], k = 14))
+Nghĩa là trả về list 14 phần tử trong đó khả năng lựa chọn ngẫu nhiên apple là 10 và banna hay cherry chỉ là 1
+
+=====
+namedtuple 
+bài đọc tiếng việt http://graktung.blogspot.com/2017/07/namedtuple-trong-python-namedtuple-in.html
+bài đọc get key tiếng anh https://python-forum.io/thread-25206.html
+
+
+Mình thấy cái nametuple này giống struct nhưng cú pháp nó sẽ như sau
+
+things = namedtuple('Thing', ['name', 'value', 'weight'])
+
+Theo mình hiểu khai báo 1 struct có tên là Thing (máy hiểu là biến Thing) nhưng
+mà định danh là tên things khi dùng mình sẽ dùng biến này để khai báo
+nhưng khi in ra nó sẽ ghi kiểu Thing
+
+ ['name', 'value', 'weight'] là _fields: các thành phần của struct Thing, hay các giá
+trị của biến things
+
+Cái này cũng giống dictionary: vậy mình muốn lấy key thì sao
+a = Thing('laptop', 500, 2020)
+
+a._fields => ('name', 'value', 'weight')
+
+Chuyển nó thành tuple
+a._asdict() => {'name': 'laptop', 'value': 500, 'weight': 2020}
+
+Lấy 1 giá trị 
+a.weight => 2020
+==========
+FitnesssFunc = Callable[[Genome]], int]]  Lấy vào 1 bộ gen trả về kiểu int 1 value
+===
+Random. randit(a,b) -> (range (a, b+1))
+===
+random() -> return value is float in [0,1)

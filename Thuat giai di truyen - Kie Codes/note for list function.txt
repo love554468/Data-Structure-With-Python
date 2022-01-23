@@ -1,0 +1,12 @@
+genetic representation of a solution: tạo ra 1 gen ngẫu nhiên
+
+a function to generate new solutions : tạo ra quần thể
+
+fitness function: tính điểm các cá thể thôi return giá trị thôi
+
+selection function: lựa chọn để tạo ra thế hệ tiếp theo 
+
+crossover function: sinh sản
+
+cái fitness_limit = 1300 trong run_evolution là sao nhỉ khi nào nó dừng được ở số to như vậy, các vật thể làm sao chọn đc như thế nhỉ cái này chắc mình in 
+ra được đó
