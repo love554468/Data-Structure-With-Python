@@ -18,7 +18,7 @@ merge sort, quick sort, insert sort, buble sort, selection sort
 
 Không có phân tích độ phức tạp
 
-Nguồn: https://www.youtube.com/watch?v=9-h52Zcn8b4&list=PLVe_90pmDDY8dhmM-SgOgnPnSXf2Bu52-&index=14&ab_channel=HaiL%C3%ADa
+Nguồn tham khao: https://www.youtube.com/watch?v=9-h52Zcn8b4&list=PLVe_90pmDDY8dhmM-SgOgnPnSXf2Bu52-&index=14&ab_channel=HaiL%C3%ADa
 
 Built-in nghĩa là (adj) Được cài đặt sẵn (trên máy). Đây là cách dùng Built-in.
 
